@@ -5,9 +5,9 @@
 var has = Object.prototype.hasOwnProperty;
 
 try {
-  var type = require('type-component');
+  // commented out by npm-component: var type = require('type-component');
 } catch (err) {
-  var type = require('type');
+  var type = require('component-type');
 }
 
 /**

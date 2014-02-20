@@ -1,15 +1,7 @@
 {
-  "name": "merge-util",
-  "version": "0.1.0",
+  "name": "cristiandouce-merge-util",
   "description": "Deep merge object utility",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:cristiandouce/merge-util.git"
-  },
+  "version": "0.1.0",
   "keywords": [
     "merge",
     "object",
@@ -17,13 +9,8 @@
     "component",
     "util"
   ],
-  "author": "Cristian Douce <cristian@gravityonmars.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/cristiandouce/merge-util/issues"
-  },
+  "main": "index.js",
   "dependencies": {
-    "type-component": "0.0.1"
-  },
-  "main": "index.js"
+    "component-type": "git://github.com/npmcomponent/component-type.git"
+  }
 }
